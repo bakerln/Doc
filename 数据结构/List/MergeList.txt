@@ -1,0 +1,19 @@
+status MergeList(LinkList &la, LinkList &lb, LinkList &lc){
+	//有序
+	pa = la->next;
+	pb = lb->next;
+	lc = pc = la;		//用la的头结点做为lc的头结点
+	while(pa != null && pb != null){
+		if(pa->data <= pb->data){
+			pc->next = pa;
+			pc = pa;
+			pa = pa->next;
+		}else{
+			pc->next = pb;
+			pc = pb;
+			pb = pb->next;
+		}
+		pc->next = pa?pa:pb;		//一个链，只要插一个头即可
+		free(lb);
+	}
+}

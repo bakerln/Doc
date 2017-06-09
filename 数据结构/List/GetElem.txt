@@ -1,0 +1,12 @@
+status GetElem_L(LinkList l, int i, ElemType &e){
+	//L为带头结点的单链表的头指针
+	p = L->next;
+	j = 1;
+	while(p != null && j < i){
+		p = p->next;
+		j++;
+	}
+	if(p = null || j > i)return error;
+	e = p->data;
+	return OK;
+}

@@ -1,0 +1,35 @@
+//递增数列合并
+void MergeList(List la, List lb, List &lc)
+{
+	InitList(lc);
+	int i = j = 1;
+	int k = 0;
+	la_len = ListLength(la);
+	lb_len = ListLength(lb);
+	while(la_len > i && lb_len > j)
+	{
+		GetElem(la, i, ai);
+		GetElem(lb, j, bj);
+		if(ai<bj)
+		{
+			ListInsert(lc, ++k, ai);
+			i++;
+		}else
+		{
+			ListInsert(lc, ++k, bj);
+			j++;
+		}
+	}
+	while(i < la_len)
+	{
+		GetElem(la, i, ai);
+		ListInsert(lc, ++k, ai);
+		i++;
+	}
+	while(j < lb_len)
+	{
+		GetElem(la, j, bj);
+		ListInsert(lc, ++k, bj);
+		j++;
+	}
+}

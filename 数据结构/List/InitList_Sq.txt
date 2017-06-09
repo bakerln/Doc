@@ -1,0 +1,8 @@
+Status InitList_Sq(SqList &l){
+//malloc 申请空间，成功返回首地址
+	l.elem = (ElemType *)malloc(LIST_INIT_SIZE* sizeof(ElemType));
+	if(!l.elem)exit(OVERFLOW);
+	l.length = 0;
+	l.listsize = LIST_INIT_SIZE;
+	return OK;
+}

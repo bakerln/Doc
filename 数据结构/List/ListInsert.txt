@@ -1,0 +1,17 @@
+Statue ListInsert(List &l, int i, elemTpye e){
+	if(i<1 || i > l.length+1)
+		return error;
+	if(l.length >= l.listsize){
+		newbase = (ElemType *)realloc(l.elem, (L.listsize + LISTINCREMENT) * sizeof(ElemTpye));
+		if(!newbase)return error;
+		l.elem = newbase;
+		l.listsize = l.listsize + LISTINCREMENT;
+	}
+	q = &(l.elem[i-1]);
+	for(p = &(l.elem[l.length - 1]); p >= q; p--){
+		*(p + 1) = p;
+	}
+	*q = e;
+	l.length++;
+	return OK;
+}

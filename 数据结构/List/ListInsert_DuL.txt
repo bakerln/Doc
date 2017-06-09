@@ -1,0 +1,10 @@
+status ListInsert_DuL(DuLinkList &l, int i, ElemType e){
+	if(!(p = GetElemP_DuL(l,i)))return error;
+	if(!(s = (DuLinkList)malloc(sizeof(DuLNode))))return error;
+	s->date = e;
+	s->prior = p->prior;
+	p->prior->next = s;
+	s->next = p;
+	p->prior = s;
+	return OK;
+}

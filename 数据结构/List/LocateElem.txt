@@ -1,0 +1,9 @@
+status LocateElem(LinkList L, ElemType e, Position
+		int (*compare)(ElemType, ElemType));
+
+typedef struct{
+	float coef;
+	int expn;
+}
+
+typedef LinkList polynomial;

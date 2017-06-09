@@ -1,0 +1,14 @@
+status ListDelete_L(LinkList &l, int i, ElemType e){
+	p = l -> next;
+	j = 1;
+	while(p -> next != null && j < i-1){
+		p = p -> next;
+		j++;
+	}
+	if(p -> next == null && j > i-1)return error;
+	q = p -> next;
+	p->next = q->next;
+	e = q->date;
+	free(q);
+	return OK;
+}

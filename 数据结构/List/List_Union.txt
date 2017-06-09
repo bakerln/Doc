@@ -1,0 +1,13 @@
+void union(List &la, List lb)
+{
+	la_len = ListLength(la);
+	lb_len = ListLength(lb);
+	for(i = 1; i <= lb_len; i++)
+	{
+		GetElem(lb, i, e);
+		if(!LocateElem(la, e, equal))
+		{
+			ListInsert(&la, ++la_len, e);
+		}
+	}
+}

@@ -1,0 +1,11 @@
+status CreateList_L(LinkList &l, int n){
+//跟插入结点相似，是从链表头插入
+	l = (LinkList)malloc(sizeof(LNode));
+	l->next = NULL;
+	for(i=0; i<n; i++){
+		p = (LinkList)malloc(sizeof(LNode));
+		scanf(&p->date);
+		p->next = l->next;
+		l->next = p;
+	}
+}

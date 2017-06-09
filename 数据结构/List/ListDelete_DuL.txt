@@ -1,0 +1,8 @@
+status ListDelete_DuL(DuLinkList &l, int i, Elemtype &e){
+	if((p=GetElemP_DuL(l,i)) == null)return error;
+	e = p->data;
+	p->prior->next = p->next;
+	p->next->prior = p->prior;
+	free(P);
+	return OK; 
+}

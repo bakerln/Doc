@@ -1,0 +1,14 @@
+status ListInsert_L(LinkList &l, int i, ElemType e){
+	p = l -> next;
+	j = 1;
+	while(p != null && j < i-1){
+		p = p ->next;
+		j++;
+	}
+	while(p = null || j > i-1)return error;
+	s = (LinkList)malloc(sizeof(LNode));
+	s -> data = e;
+	s -> next = p -> next;
+	p -> next = s;
+	return OK;
+}

@@ -1,0 +1,10 @@
+status ListDelete(List &l, int i, int &e){
+	if(i < 1 || i > l.length)return error;
+	p = &elem[i-1];
+	e = *p;
+	for(p; p <= &elem[l.length - 1]; p++){
+		*(p) = *(p+1); 
+	}
+	l.length--;
+	return OK;
+}
