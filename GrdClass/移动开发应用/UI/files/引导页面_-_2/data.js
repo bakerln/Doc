@@ -1,0 +1,65 @@
+﻿$axure.loadCurrentPage({
+  "url":"引导页面_-_2.html",
+  "generationDate":new Date(1414911756828.22),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"0e3fc58cbc4544f9b48d8fa165366cfa",
+    "type":"Axure:Page",
+    "name":"引导页面 - 2",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"c0ea62a90f83455d923d9b077b75c19c",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":720,
+              "height":1280}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d7b4a2918e164110b0d45449e5c4bbcc",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":720,
+                  "height":1280}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/引导页面_-_2/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "c0ea62a90f83455d923d9b077b75c19c":{
+      "scriptId":"u0"},
+    "d7b4a2918e164110b0d45449e5c4bbcc":{
+      "scriptId":"u1"}}});

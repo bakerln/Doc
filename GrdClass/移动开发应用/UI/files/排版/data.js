@@ -1,0 +1,73 @@
+﻿$axure.loadCurrentPage({
+  "url":"排版.html",
+  "generationDate":new Date(1414911756969.3),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"490746dfb22a4bf6aa8e482f6c3f993f",
+    "type":"Axure:Page",
+    "name":"排版",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"10b5c73fcd064e2ba827d29e598a0be0",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontSize":"28px",
+            "location":{
+              "x":50,
+              "y":67},
+            "size":{
+              "width":293,
+              "height":33}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"913e9f31997345dcbee41d919a138c0a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontSize":"28px",
+                "location":{
+                  "x":50,
+                  "y":67},
+                "size":{
+                  "width":293,
+                  "height":33}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "10b5c73fcd064e2ba827d29e598a0be0":{
+      "scriptId":"u0"},
+    "913e9f31997345dcbee41d919a138c0a":{
+      "scriptId":"u1"}}});

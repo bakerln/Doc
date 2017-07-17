@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Qitiji</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Hello World, Qiutiji!</string>
+
+    
+    <string name="length">长</string>
+    <string name="width">宽</string>
+    <string name="height">高</string>
+    <string name="tjButton">求体积</string>
+
+</resources>

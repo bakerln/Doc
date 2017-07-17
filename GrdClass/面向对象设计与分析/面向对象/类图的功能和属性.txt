@@ -1,0 +1,16 @@
+导师：（积高，在这个系统中导师和学生是不是应该没有关联？）
+- getApplication_form()----获取学位论文评审申请书
+- setAttitude_table()----填写导师意见
+学院管理员：
+- getApplication_form()----获取学位论文评审申请书
+- setImproperSystem()----将论文提交到不端系统(选)
+- setApplicationResult()----审批学位论文评审申请书，填写学院意见
+- setAlterExplain()-----提交修改说明书
+- setThesisResult()----填写学位论文评审结果
+研究生：
+- setApplication_form()----提交学位论文评审申请书
+- getApplicationResult()----获取学位论文盲审申请结果，包括导师意见和学院意见
+- setThesis()----提交论文
+- getAlterExplain()----
+- setAlterThesis()----提交修改论文
+- getThesisResult()----获取学位论文盲审结果
